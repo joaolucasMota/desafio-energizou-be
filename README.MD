@@ -1,32 +1,13 @@
-# Título do projeto
+# API Crud para gerenciamento de clientes
 
-Um parágrafo da descrição do projeto vai aqui
+Essa API foi desenvolvida como parte do desafio da empreza Energizou.
 
 ## 🚀 Começando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+Você pode fazer um clone do projeto copiando a URL desta página e executando o comando "git clone <URL DESTA PAGINA>" em uma pasta qualquer do seu computador.
 
-### 📋 Pré-requisitos
+Após isso você deve acessar a pasta do projeto e executar o comando "npm install" (ou o comando instal do seu package mananger), para instalar as dependencias do projeto.
 
-De que coisas você precisa para instalar o software e como instalá-lo?
-
-```
-Dar exemplos
-```
-
-### 🔧 Instalação
-
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
-
-Diga como essa etapa será:
-
-```
-Dar exemplos
-```
-
-E repita:
-
-```
-Até finalizar
+Você deve editar o arquivo "variaveis.env" com as informações de usuário e senha do seu Banco de dados Mysql
