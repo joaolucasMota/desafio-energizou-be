@@ -11,3 +11,23 @@ Você pode fazer um clone do projeto copiando a URL desta página e executando o
 Após isso você deve acessar a pasta do projeto e executar o comando "npm install" (ou o comando instal do seu package mananger), para instalar as dependencias do projeto.
 
 Você deve editar o arquivo "variaveis.env" com as informações de usuário e senha do seu Banco de dados Mysql
+
+```sql
+-- Exemplo de código SQL
+CREATE TABLE clientes (
+id INT PRIMARY KEY AUTO_INCREMENT,
+nomeCliente VARCHAR(100) NOT NULL,
+senha VARCHAR(100) NOT NULL,
+razaoSocial VARCHAR(100) NOT NULL,
+cnpj VARCHAR(18) NOT NULL,
+cep VARCHAR(9) NOT NULL,
+endereco VARCHAR(255) NOT NULL,
+numero VARCHAR(10) NOT NULL,
+telefone VARCHAR(15) NOT NULL,
+email VARCHAR(100) NOT NULL
+);
+```
+
+## 👨🏻‍🔧 Funções da API
+
+A API foi desenvolvida para gereenciar as requisições do sistema
