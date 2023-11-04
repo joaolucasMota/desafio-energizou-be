@@ -18,6 +18,7 @@ Essas instrucções faram com que você crei o banco de dados e tabela
 
 ```sql
 --  Código SQL
+
 create database dbEnergizou;
 
 use dbEnergizou;
@@ -38,4 +39,13 @@ email VARCHAR(100) NOT NULL
 
 ## 👨🏻‍🔧 Funções da API
 
-A API foi desenvolvida para gereenciar as requisições do sistema
+A API foi desenvolvida para gereenciar as requisições do sistema de gerenciamento de clientes
+
+Possui rotas para rrequisições GET, PUT, POST e DELETE
+
+A API também fornece endpoint para buscar um CNPJ em especifico 
+
+## 👨🏻‍💻 Tecnologias Utilizadas
+ <li> Node JS
+
+A API foi desenvolvida apenas com o Node Js, utilizando o javascript.
