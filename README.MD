@@ -2,6 +2,8 @@
 
 Essa API foi desenvolvida como parte do desafio da empreza Energizou.
 
+O front end da aplicação que utiliza esssa API você pode acessar <a href="https://github.com/joaolucasMota/desafio-energizou-fe">clicando aqui<a>
+
 ## 🚀 Começando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
