@@ -12,15 +12,23 @@ Após isso você deve acessar a pasta do projeto e executar o comando "npm insta
 
 Você deve editar o arquivo "variaveis.env" com as informações de usuário e senha do seu Banco de dados Mysql
 
+Abaixo segue as instruções que você deve executar em seu banco de dados para crialo e poder usar junto com a API
+
+Essas instrucções faram com que você crei o banco de dados e tabela
+
 ```sql
--- Exemplo de código SQL
-CREATE TABLE clientes (
-id INT PRIMARY KEY AUTO_INCREMENT,
+--  Código SQL
+create database dbEnergizou;
+
+use dbEnergizou;
+
+create table clientes (
+id int primary key auto_increment,
 nomeCliente VARCHAR(100) NOT NULL,
 senha VARCHAR(100) NOT NULL,
 razaoSocial VARCHAR(100) NOT NULL,
-cnpj VARCHAR(18) NOT NULL,
-cep VARCHAR(9) NOT NULL,
+cnpj VARCHAR(18) NOT NULL, 
+cep VARCHAR(9) NOT NULL, 
 endereco VARCHAR(255) NOT NULL,
 numero VARCHAR(10) NOT NULL,
 telefone VARCHAR(15) NOT NULL,
