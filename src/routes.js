@@ -8,5 +8,6 @@ router.get('/cliente/:id', DataController.buscarUm);
 router.post('/cliente', DataController.inserir);
 router.put('/cliente/:id', DataController.alterar);
 router.delete('/cliente/:id', DataController.excluir);
+router.get('/cnpj/:cnpj', DataController.buscarCnpj);
 
 module.exports = router;
